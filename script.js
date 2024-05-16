@@ -22,6 +22,7 @@ let color = colors.get("black");
 
 const selectedColor = document.querySelector(".dum");
 selectedColor.style.background = color;
+selectedColor.style.color = "white";
 
 function updateSelectedColor() {
   selectedColor.style.background = color;
